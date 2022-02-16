@@ -256,3 +256,7 @@ col {
 .reason .icons_descr:nth-child(4) {
   margin-top: 35px;
 }
+
+.mobileapp {
+  min-height: 864px;
+}
