@@ -1,0 +1,95 @@
+@media ( max-width:  1200px)
+	.menu
+		&_item
+			padding-right: 21px
+		&_link
+			font-size: 13px    
+	.promo
+		&_header
+			font-size: 50px
+		&_subheader
+			line-height: 36px    
+	.reason
+		.item_descr
+			width: 300px  
+	.mobileapp
+		&_item
+			width: 300px
+			height: 265px      
+	.footer
+		&_link_block
+			width: 350px     
+
+@media ( max-width:  991px)   
+	.menu
+		padding: 13px 0
+		&_item
+			padding-right: 11px
+	.subheader
+		.logo_img
+			width: 100%
+		.logo_text
+			font-size: 11px  
+		.phone
+			font-size: 20px 
+	.promo
+		&_header
+			font-size: 40px
+		&_subheader
+			font-size: 30px
+			line-height: 36px  
+		&_descr
+			font-size: 15px
+			line-height: 21px    
+	.reason
+		&_item
+			flex-direction: column
+			align-items: center
+			.item_div
+				margin-bottom: 15px
+	.mobileapp
+		min-height: 750px
+		&_item 
+			width: 230px
+			height: 200px    
+			&_subtitle
+				font-size: 18px   
+	.car
+		&_content
+			width: 700px
+	
+	.footer
+		min-height: 151px
+		&_adaptiv
+			display: flex
+			flex-direction: column
+			align-items: center
+		&_icons
+			position: static
+			margin: 10px
+		&_linkstore
+			position: static
+			margin: 10px
+
+@media ( max-width:  767px) 
+	.menu
+		&_list
+			position: fixed
+			width: 50%
+			height: 100vh
+			top: 0
+			left: -100%
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			padding: 20px 15px
+			background-color: rgba(0,0 ,0 ,.8)
+			transition: 0.6s all
+		&_active
+			left: 0	
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px
